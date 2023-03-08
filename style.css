@@ -5,3 +5,45 @@ ul {
 .inline-block {
     display: inline-block !important;
 }
+
+.header {
+    background-image: url('images/orr-child-adjust.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    height: 50vh;
+}
+
+/* Center the text in the header */
+.header-text {
+    text-align: center;
+    padding-top: 25%;
+}
+
+/* Style the header text */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* Style the logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make the header responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
