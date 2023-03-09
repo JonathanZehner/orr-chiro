@@ -1,3 +1,28 @@
+/*===========================================
+
+    Universal Styling
+
+===========================================*/
+/*========= Color Changes ========*/
+
+.bg-primary {
+    background-color: #f1f3f4 !important;
+}
+
+.btn-primary {
+    background-color: #d1ddbf;
+    border: none;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: #253b4c !important;
+}
+
+/*========= End Color Changes ========*/
+
 ul {
     list-style-type: none;
 }
@@ -6,35 +31,43 @@ ul {
     display: inline-block !important;
 }
 
+/*==== Header ====*/
+
+.navbar {
+    background-color: #253b4c !important;
+}
+
+.navbar div ul li a {
+    color: #f1f3f4 !important;
+}
+
+.btn-login {
+    background-color: #d1ddbf !important;
+    border: none !important;
+    color: #253b4c !important;
+}
+
 .header {
-    background-image: url('images/orr-child-adjust.jpg');
+    background-image: url('images/orr-family.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     color: white;
-    height: 50vh;    
-}
-
-/* Center the text in the header */
-.header-text {
-    text-align: center;
-    padding-top: 25%;
-}
-
-/*========= Color Changes ========*/
-button.btn.btn-primary.btn-lg {
-    background-color: black;
-    border: none;
+    height: 50vh;
 }
 
 /* Style the header text */
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 0;
+    margin: 100px auto 50px;
+    max-width: 600px;
 }
 
-p {
+.header p {
     font-size: 1.5rem;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
 }
 
 /* Style the logo */
@@ -54,8 +87,40 @@ p {
     }
 } */
 
+/* Center the text in the header */
+.header-text {
+    text-align: center;
+    padding-top: 25%;
+}
+
+/*==== Footer ====*/
+
+.footer {
+    background-image: url('images/wood-texture.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+}
+
+
+/*===========================================
+
+    Home Page Styling
+
+===========================================*/
 .testimonial-section,
 .testimonial-btn {
     height: 500px;
 }
 
+/*===========================================
+
+    About Page Styling
+
+===========================================*/
+
+/*===========================================
+
+    Services Page Styling
+
+===========================================*/
