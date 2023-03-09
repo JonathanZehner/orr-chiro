@@ -12,7 +12,7 @@ ul {
     background-position: top;
     background-repeat: no-repeat;
     color: white;
-    height: 50vh;
+    height: 50vh;    
 }
 
 /* Center the text in the header */
@@ -21,9 +21,15 @@ ul {
     padding-top: 25%;
 }
 
+/*========= Color Changes ========*/
+button.btn.btn-primary.btn-lg {
+    background-color: black;
+    border: none;
+}
+
 /* Style the header text */
 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
 }
 
@@ -38,7 +44,7 @@ p {
 }
 
 /* Make the header responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     h1 {
         font-size: 3rem;
     }
@@ -46,4 +52,10 @@ p {
     p {
         font-size: 1rem;
     }
+} */
+
+.testimonial-section,
+.testimonial-btn {
+    height: 500px;
 }
+
