@@ -97,9 +97,10 @@ h1 {
 
 .footer {
     background-image: url('images/wood-texture.png');
-    background-size: contain;
+    background-size: cover;
     background-position: top;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+
 }
 
 
