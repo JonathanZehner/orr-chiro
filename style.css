@@ -118,13 +118,11 @@ h1 {
 
 /*==== Footer ====*/
 
-.footer {
-    background-image: url('images/wood-texture.png');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+/* .footer {
+    background-color: #11212d !important;
+    color: #d1ddbf;
 
-}
+} */
 
 
 /*===========================================
