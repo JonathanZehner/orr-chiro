@@ -9,6 +9,10 @@
     background-color: #f1f3f4 !important;
 }
 
+.bg-secondary {
+    background-color: #ECEEF2;
+}
+
 .btn-primary {
     background-color: #d1ddbf;
     border: none;
@@ -19,6 +23,10 @@ h3,
 h4,
 h5 {
     color: #253b4c !important;
+}
+
+.media-body {
+    text-align: left;
 }
 
 /*========= End Color Changes ========*/
@@ -37,6 +45,10 @@ ul {
     background-color: #253b4c !important;
 }
 
+button.navbar-toggler {
+    background-color: #d1ddbf;
+}
+
 .navbar div ul li a {
     color: #f1f3f4 !important;
 }
@@ -48,11 +60,11 @@ ul {
 }
 
 .header {
-    background-image: url('images/orr-family.png');
+    background-image: url('images/Highly-RatedChiropractic-Care.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    color: white;
+    color: #f1f3f4;
     height: 100vh;
 }
 
