@@ -12,13 +12,20 @@
 .btn-primary {
     background-color: #d1ddbf;
     border: none;
+    box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+    color: #11212d;
 }
 
 h2,
 h3,
 h4,
 h5 {
-    color: #253b4c !important;
+    color: #11212d !important;
 }
 
 /*========= End Color Changes ========*/
@@ -96,10 +103,8 @@ h1 {
 /*==== Footer ====*/
 
 .footer {
-    background-image: url('images/wood-texture.png');
-    background-size: contain;
-    background-position: top;
-    background-repeat: repeat;
+    background-color: #253b4c !important;
+    color: #d1ddbf;
 }
 
 
