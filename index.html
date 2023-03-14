@@ -20,6 +20,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- JS Chatbot -->
+    <script src="//code.tidio.co/nu85uvumdvppze7newrijzy50rdefx9d.js" async></script>
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -34,8 +37,8 @@
           <img
             src="/images/logo-variations/orr-rev-logo.png"
             alt="Bootstrap"
-            width="150"
-            height=""
+            width="auto"
+            height="50px"
           />
         </a>
         <button
@@ -75,9 +78,9 @@
               >
             </li>
           </ul>
-          <button class="btn btn-outline-success btn-login me-3" type="submit">
+          <a href="#"><button class="btn btn-primary mt-2 btn-md me-3" type="submit">
             Login
-          </button>
+          </button></a>
         </div>
       </div>
     </nav>
@@ -93,9 +96,8 @@
             Transform Your Health and Wellbeing with Our Top-Rated Chiropractic
             Services
           </p>
-          <button class="btn btn-primary mt-2 btn-lg" type="button">
-            Services
-          </button>
+          <a href="services.html"></a><button class="btn btn-primary mt-2 btn-lg" type="button">Services
+          </button></a>
         </div>
       </div>
     </header>
@@ -115,7 +117,7 @@
             <div class="col-12 my-auto col-sm-6">
               <img
                 src="images/orr-child-adjust.jpg"
-                class="img-fluid d-none d-sm-block header-img"
+                class="img-fluid d-none d-sm-block header-img rounded-4"
                 alt="..."
               />
             </div>
@@ -132,14 +134,14 @@
                 </li>
                 <li class="media my-4">
                   <div class="media-body">
-                    <h5 class="mt-0 mb-1"> <img src="images/icons/Item 1.png" class="mr-3  inline-block   " alt="Image 1">Heading 2</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed risus turpis. Nam feugiat tempus erat, id bibendum mi commodo ac.</p>
+                    <h5 class="mt-0 mb-1"> <img src="images/icons/Item 2.png" class="mr-3  inline-block   " alt="Image 1">Massage Therapy</h5>
+                    <p>Massage is a great tool for relaxation, pain relief, easing muscle tension and more.</p>
                   </div>
                 </li>
                 <li class="media">
                   <div class="media-body">
-                    <h5 class="mt-0 mb-1"><img src="images/icons/Item 1.png" class="mr-3  inline-block   " alt="Image 1"> Heading 3</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed risus turpis. Nam feugiat tempus erat, id bibendum mi commodo ac.</p>
+                    <h5 class="mt-0 mb-1"><img src="images/icons/Item 3.png" class="mr-3  inline-block   " alt="Image 1"> Pediatric Chiropractic Care</h5>
+                    <p>Pediatric chiropractic care is a specialized form of healthcare that focuses on the treatment of children, from infants to adolescents.</p>
                   </div>
                 </li>
                 
@@ -151,6 +153,13 @@
 
       <!-- Testimonials -->
       <section class="mb-5 mt-5 mx-auto w-100 px-5 testimonial-section">
+        <div class="mx-auto mb-5 text-center">
+          <a href="#testimonials"><h2 class="">What Our Clients Say</h2></a>
+            <p>
+              Real Stories from Real Patients
+            </p></div>
+          
+
         <!-- Carousel -->
         <!-- Carousel wrapper -->
         <div
@@ -172,11 +181,7 @@
                   <p>Photographer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minus et deleniti nesciunt sint eligendi reprehenderit
-                    reiciendis, quibusdam illo, beatae quia fugit consequatur
-                    laudantium velit magnam error. Consectetur distinctio fugit
-                    doloremque.
+                     I went in with lower back pain. He set realistic expectations and not a “magic cure” like other chiropractors have claimed in my condition. I would highly recommend his services.
                   </p>
                 </div>
               </div>
@@ -203,9 +208,7 @@
                   <p>Web Developer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minus et deleniti nesciunt sint eligendi reprehenderit
-                    reiciendis.
+                    Dry needling is what brought me to Dr. Orr. After only one session, I had almost a 90% improvement. Two thumbs up to Dr. Orr. Much better results than pain medication, that just mask the problem.
                   </p>
                 </div>
               </div>
@@ -228,15 +231,11 @@
               />
               <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                  <h4 class="mb-3">Anna Deynah</h4>
+                  <h4 class="mb-3">Eileen Benson</h4>
                   <p>UX Designer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minus et deleniti nesciunt sint eligendi reprehenderit
-                    reiciendis, quibusdam illo, beatae quia fugit consequatur
-                    laudantium velit magnam error. Consectetur distinctio fugit
-                    doloremque.
+                    I saw the new massage therapist here, and I’m so glad I did! Katie is amazing. She was attentive and thorough and my back feels better than it has in a long time. Definitely will go back.
                   </p>
                 </div>
               </div>
@@ -280,60 +279,61 @@
     <!-- Footer -->
     <footer class="bg-primary py-5 footer">
       <div class="row mx-5">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+        <div class="col-6 col-md-3 mb-3">
+          <h5>Links</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="blog.html" class="nav-link p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">Services</a></li>
+            <li class="nav-item mb-2"><a href="#testimonials" class="nav-link p-0 text-muted">Testimonials</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+        <div class="col-12 col-md-3 mb-3">
+          <h5>Office Hours</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            <li>Monday: 10 am – 6 pm</li>
+            <li>Tuesday: Appt. Only</li>
+            <li>Wednesday: 10 am – 6 pm</li>
+            <li>Thursday: 2 pm – 6 pm</li>
+            <li>Friday: 10 am – 5 pm</li>
+            <li>Saturday: 9am - 12 pm</li>
           </ul>
         </div>
 
         <div class="col-md-5 offset-md-1 mb-3">
           <form>
             <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
               <button class="btn btn-primary" type="button">Subscribe</button>
             </div>
+            <p class="mt-3">Sign Up to receive emails of our latest blogs and downloadable content!</p>
           </form>
           <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top mx-5">
-        <p>© 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-        </ul>
+      <div class="border-top mx-auto text-center">
+        <a href="index.html">
+          <img src="images/logo-variations/logo-color.png" alt="Orr Chiropractic and Massage Logo" width="auto"
+            height="175px">
+        </a>
+      </div>
+      <div class="mx-auto text-center">
+        <ul class="mx-auto list-unstyled d-inline-flex">
+              <li class="ms-3"><a class="text-muted" href="#"><img width="50" height="auto" src="images/icons/Item 1.png"></img></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><img width="50" height="auto" src="images/icons/Item 1.png"></img></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><img width="50" height="auto" src="images/icons/Item 1.png"></img></a></li>
+        </ul>      
+        
+        <p>© <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script> Company, Inc. All rights reserved.</p>
+
+
       </div>
     </footer>
     <!-- Scripts -->
