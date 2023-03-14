@@ -86,7 +86,7 @@ button.navbar-toggler {
 }
 
 .header {
-    background: #ffffff39 url('images/sincerely-media-wGFibXDQlBI-unsplash.jpg') no-repeat 0 0;
+    background: #ffffff39 url('images/sincerely-media-wGFibXDQlBI-unsplash.jpg') no-repeat -200px 0;
     background-size: cover;
     color: #f1f3f4;
     height: 100vh;
@@ -162,9 +162,38 @@ h1 {
     About Page Styling
 
 ===========================================*/
+/*===========================================
+
+    Blog Page Styling
+
+===========================================*/
+
+.advice img {
+    height: auto;
+    max-width: 450px;
+}
+
+.blog-icon {
+    height: 150px;
+    width: auto;
+}
+
 
 /*===========================================
 
     Services Page Styling
 
 ===========================================*/
+
+/*===========================================
+
+    Media Queries
+
+===========================================*/
+
+/*------------ Min-Width 470px ------------*/
+@media screen and (min-width: 470px) {
+    .header {
+            background-position: 0 0;
+        }
+}
